@@ -15,6 +15,7 @@
 		281B10F32AF41B00008E8431 /* QuadView_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B10F22AF41B00008E8431 /* QuadView_4Tests.swift */; };
 		281B10FD2AF41B00008E8431 /* QuadView_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B10FC2AF41B00008E8431 /* QuadView_4UITests.swift */; };
 		281B10FF2AF41B00008E8431 /* QuadView_4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B10FE2AF41B00008E8431 /* QuadView_4UITestsLaunchTests.swift */; };
+		281B110E2AF41CE9008E8431 /* QuadView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B110D2AF41CE9008E8431 /* QuadView4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		281B10F82AF41B00008E8431 /* QuadView_4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuadView_4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		281B10FC2AF41B00008E8431 /* QuadView_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadView_4UITests.swift; sourceTree = "<group>"; };
 		281B10FE2AF41B00008E8431 /* QuadView_4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadView_4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		281B110D2AF41CE9008E8431 /* QuadView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadView4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				281B10DE2AF41AFE008E8431 /* QuadView_4App.swift */,
 				281B10E02AF41AFE008E8431 /* ContentView.swift */,
+				281B110D2AF41CE9008E8431 /* QuadView4.swift */,
 				281B10E22AF41AFE008E8431 /* Item.swift */,
 				281B10E42AF41B00008E8431 /* Assets.xcassets */,
 				281B10E92AF41B00008E8431 /* QuadView_4.entitlements */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281B110E2AF41CE9008E8431 /* QuadView4.swift in Sources */,
 				281B10E12AF41AFE008E8431 /* ContentView.swift in Sources */,
 				281B10E32AF41AFE008E8431 /* Item.swift in Sources */,
 				281B10DF2AF41AFE008E8431 /* QuadView_4App.swift in Sources */,
@@ -425,6 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = QuadView_4/QuadView_4.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -453,6 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = QuadView_4/QuadView_4.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
