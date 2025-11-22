@@ -1,0 +1,31 @@
+#!/bin/bash
+# AI Collaboration Configuration for QuadView_4
+# Project: macOS four-panel text editor
+
+export PROJECT_NAME="QuadView_4"
+export PROJECT_TYPE="macos-swiftui"
+export PROJECT_LANGUAGE="swift"
+export PROJECT_DESCRIPTION="A modern macOS four-panel text editor built with SwiftUI and AppKit"
+
+# Development phases
+export CURRENT_PHASE="development"
+export TARGET_FEATURES="file-operations,syntax-highlighting,data-persistence,export-features"
+
+# AI collaboration settings
+export AI_COLLABORATION_ENABLED=true
+export OCC_ASSIGNED=true
+export PRIMARY_AI="Claude"
+
+# Repository settings
+export GITHUB_REPO="https://github.com/JamesKayten/QuadView_4"
+export MAIN_BRANCH="main"
+
+# Build settings
+export BUILD_TOOL="xcodebuild"
+export TEST_TARGET="QuadView_4Tests"
+export SCHEME_NAME="QuadView_4"
+
+echo "AI Collaboration Framework initialized for $PROJECT_NAME"
+echo "Repository: $GITHUB_REPO"
+echo "Current Phase: $CURRENT_PHASE"
+echo "OCC Assignment: $OCC_ASSIGNED"
